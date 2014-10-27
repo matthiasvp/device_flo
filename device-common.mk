@@ -44,10 +44,13 @@ PRODUCT_PACKAGES += \
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
-        LiveWallpapers \
-        LiveWallpapersPicker \
-        VisualizationWallpapers \
         librs_jni
+
+#Removed packages
+#
+# LiveWallpapers
+# LiveWallpapersPicker
+# VisualizationWallpapers
 
 PRODUCT_COPY_FILES += \
 	device/asus/flo/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
